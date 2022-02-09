@@ -1,0 +1,50 @@
+.hanoi{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    flex-direction: row;
+    height: 450px; 
+    width: 600px;
+    background-color: #ccf;
+    position: relative;
+}
+
+.tower{
+    display: flex; 
+    flex-direction: column-reverse; 
+    align-items: center;
+    justify-content: end;
+    height: 200px;
+    width: 20px;
+    background-color: darkcyan;
+    left: 90px;
+    border-radius: 10px 10px 0 0;
+}
+
+.disk{
+    background: linear-gradient(to bottom, #889, #977);
+    height: 35px;
+    width: 180px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.empty{
+    width: 200px;
+}
+
+.d1{
+    width: 60px;
+}
+
+.d2{
+    width: 90px;
+}
+
+.d3{
+    width: 120px;
+}
+
+.d4{
+    width: 150px;
+}
