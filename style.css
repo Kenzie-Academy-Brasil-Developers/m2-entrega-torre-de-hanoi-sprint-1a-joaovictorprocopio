@@ -9,6 +9,16 @@
     position: relative;
 }
 
+article{
+    width: 600px;
+}
+
+.stock{
+    height: 50px;
+    width: 600px;
+    background: linear-gradient(to bottom, white, rgb(180, 180, 248));
+}
+
 .tower{
     display: flex; 
     flex-direction: column-reverse; 
@@ -27,10 +37,6 @@
     width: 180px;
     border-radius: 10px;
     z-index: 2;
-}
-
-.empty{
-    width: 200px;
 }
 
 .d1{
