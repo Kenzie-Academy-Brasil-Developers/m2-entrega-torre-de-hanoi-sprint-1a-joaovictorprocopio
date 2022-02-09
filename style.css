@@ -3,7 +3,7 @@
     justify-content: space-around;
     align-items: end;
     flex-direction: row;
-    height: 450px; 
+    height: 350px; 
     width: 600px;
     background-color: #ccf;
     position: relative;
@@ -32,7 +32,7 @@ article{
 }
 
 .disk{
-    background: linear-gradient(to bottom, #889, #977);
+    background: linear-gradient(to top, #889, #977);
     height: 35px;
     width: 180px;
     border-radius: 10px;

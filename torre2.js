@@ -7,7 +7,7 @@ const stck = document.createElement("div");
 stck.classList.add("stock");
 
 const tit = document.createElement("article");
-tit.innerHTML = "<h2>Torres de Hanoi</h2><p>Seu desafio é atravessar todos os discos até a última torre, mas sem mover mais que um disco, ou por um maior sobre um menor. Boa sorte!</p>"
+tit.innerHTML = "<h2>Torres de Hanoi</h2><p>Seu desafio é atravessar todos os discos até a última torre, mas sem mover mais que um disco, ou por um maior sobre um menor. Boa sorte!</p><p>PS.: Clique apenas nas torres, para jogar, o disco se movimenta apenas para mostra que foi selecionado.</p>"
 
 const disk1 = document.createElement("div");
 disk1.classList.add("disk");
